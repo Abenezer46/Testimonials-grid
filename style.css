@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+:root{
+
+    /*Primary*/
+
+    --violet: hsl(263, 55%, 52%);
+    --darkblue: hsl(217, 19%, 35%);
+    --Verydark-blackish-blue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+
+    /*Neutral*/
+
+    --Light-gray: hsl(0, 0%, 81%);
+    --Light-grayish-blue: hsl(210, 46%, 95%);
+
+    --hero-color:hsl(268, 61%, 70%);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+    background-color: hsl(213, 44%, 95%);
+}
+
+main{
+    margin: 164px;
+    display: flex;
+    gap: 30px;
+
+}
+
+.right{
+    max-width: 255px;
+    padding: 25px 37px 25px 31px;
+    background-color: var(--White);
+    border-radius: 10px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    color: var(--White);
+}
+.l-top{
+    display: flex;
+    gap: 31px;
+}
+.l-bottom{
+    display: flex;
+    gap: 31px;
+}
+
+.t-left{
+    max-width: 541px;
+    background-color: var(--violet);
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 357px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 25px 37px 25px 31px;
+}
+.t-right{
+    max-width: 255px;
+    background-color: var(--darkblue);
+    border-radius: 10px;
+    padding: 25px 31px;
+}
+
+.b-left{
+    max-width: 255px;
+    background-color: var(--White);
+    border-radius: 10px;
+    padding: 25px 31px;
+    color: var(--Verydark-blackish-blue);
+}
+.b-right{
+    max-width: 541px;
+    background-color: var(--Verydark-blackish-blue);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 25px 37px 25px 31px;
+}
+
+@media only screen and (max-width: 375px) {
+
+    main{
+        margin: 71px 24px;
+        flex-direction: column;
+    }
+    .l-top{
+        flex-direction: column;
+    }
+    .l-bottom{
+        flex-direction: column;
+    }
+    .t-left{
+        min-width: 329px;
+        background-position-x: 197px;
+    }
+    .t-right{
+        min-width: 329px;
+        padding-right: 20px;
+    }
+    .b-left{
+        min-width: 329px;
+    }
+    .b-right{
+        min-width: 329px;
+        padding-right: 30px;
+    }
+
+    .right{
+        min-width: 329px;
+        padding-right: 27px;
+    }
+    .test{
+        padding-right: 10px;
+    }
+    
+}
+
+
+
+.pro{
+    display: flex;
+    gap: 14px;
+}
+
+.hero{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.hero-c{
+    border: 2px solid var(--hero-color);
+}
+
+.pro-name{
+    font-size: 11px;
+}
+
+.pro-text{
+    font-size: 9px;
+    opacity: 0.5;
+}
+
+.text{
+    margin-top: 21px;
+}
+.title{
+    font-size: 20px;
+    margin-bottom: 19px;
+}
+.test{
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+
+
