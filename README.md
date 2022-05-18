@@ -1,4 +1,4 @@
-# Frontend Mentor - NFT preview card component solution
+# Frontend Mentor - Testimonials-grid-section
 
 This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7).
 
